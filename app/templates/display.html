@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ user.username }}'s graph</h1>
+<img src="/static/{{ user.graph }}" alt="Graph">
+{% endblock %}
